@@ -30,3 +30,30 @@
 *.exe
 *.out
 *.app
+*.bin
+
+# build folders
+*cmake-build-*
+/CMakeFiles
+Makefile
+/build
+
+# cmake files
+*.cmake
+
+# DEB packages
+*.deb
+
+# install manifest
+install_manifest*
+
+# Code::Blocks project files
+*.cbp
+
+# Project Specific settings
+.idea
+
+# architecture precompiled file
+arch.c
+
+/googletest
